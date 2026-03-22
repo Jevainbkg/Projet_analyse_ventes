@@ -22,25 +22,29 @@ The goal is to strengthen core Python skills before using advanced tools like Pa
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ⚙️ Features
-CSV file parsing
-Data cleaning and validation
-Revenue calculation
-Sales analysis by city and category
-Identification of top-selling and most profitable products
-Automated report generation
+
+- CSV file parsing
+- Data cleaning and validation
+- Revenue calculation
+- Sales analysis by city and category
+- Identification of top-selling and most profitable products
+- Automated report generation
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 🧠 Concepts Practiced
-File handling
-Lists and dictionaries
-Loops and conditions
-Error handling
-Modular programming
-Basic data analysis logic
+- File handling
+- Lists and dictionaries
+- Loops and conditions
+- Error handling
+- Modular programming
+- Basic data analysis logic
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 🛠️ Technologies
+
 Python (no external libraries)
+
+
 📂 Project Structure
 
 mini_analyse_ventes/
@@ -56,7 +60,8 @@ mini_analyse_ventes/
 │   └── ventes.csv
 
 └── rapports/
-    └── rapport.txt
+
+│   └── rapport.txt
     
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 🎯 Purpose
