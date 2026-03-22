@@ -4,6 +4,8 @@ _Commande servant à créer, lier et modfifier son repo github depuis son accès
 
 # > git init
 
+# > git init
+
 👉 Tu as transformé ton dossier en projet Git
 
 📌 Traduction :
