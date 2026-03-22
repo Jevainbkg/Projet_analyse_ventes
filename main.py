@@ -2,9 +2,12 @@
 import utils
 import csv
 import sys
+from pathlib import Path
 
 # Lecture des data
-link = "D:\\JevainBkg\\Formations\\Python pour la DATA  le cours ULTIME (+52h)\\00. Exercices\\Python's_Project\\mini_analyse_ventes\\data\\ventes.csv"
+
+base_dir = Path(__file__).parent
+link = base_dir / "data" / "ventes.csv"
 
 with open(link, mode="r", encoding="utf-8") as file:
     data = file.read().splitlines()
