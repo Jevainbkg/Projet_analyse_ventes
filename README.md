@@ -8,7 +8,15 @@ Python-based sales data analysis tool built without external libraries. Processe
 
 This project is a Python-based sales data analysis tool built without external libraries.
 
-It processes raw CSV data, performs cleaning, computes key metrics and generates a structured report.
+It focuses on core Python concepts by implementing data processing from scratch:
+
+- CSV file parsing
+- Data cleaning and validation
+- Aggregations (revenue, categories, cities)
+- nalytical insights (top products, best-performing segments)
+- Automated report generation
+
+The goal is to strengthen algorithmic thinking and data manipulation skills before using advanced libraries like Pandas.
 
 The goal is to strengthen core Python skills before using advanced tools like Pandas.
 
@@ -34,12 +42,19 @@ Basic data analysis logic
 🛠️ Technologies
 Python (no external libraries)
 📂 Project Structure
+
 mini_analyse_ventes/
+
 │
+
 ├── main.py
+
 ├── utils.py
+
 ├── data/
+
 │   └── ventes.csv
+
 └── rapports/
     └── rapport.txt
     
