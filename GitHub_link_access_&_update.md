@@ -2,8 +2,6 @@
 
 > git init
 
-# > git init
-
 👉 Tu as transformé ton dossier en projet Git
 
 📌 Traduction :
