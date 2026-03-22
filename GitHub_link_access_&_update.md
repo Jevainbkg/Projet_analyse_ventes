@@ -1,8 +1,6 @@
-_Commande servant à créer, lier et modfifier son repo github depuis son accès local_
-
 🧠 1. git init
 
-# > git init
+> git init
 
 # > git init
 
@@ -14,7 +12,7 @@ _Commande servant à créer, lier et modfifier son repo github depuis son accès
 
 📦 2. git add .
 
-# > git add .
+> git add .
 
 👉 Tu ajoutes tous les fichiers à la zone de préparation
 
@@ -28,7 +26,7 @@ _Commande servant à créer, lier et modfifier son repo github depuis son accès
 ça prépare juste
 📸 3. git commit -m "First commit"
 
-# > git commit -m "First commit"
+> git commit -m "First commit"
 
 👉 Tu crées une version sauvegardée de ton projet
 
@@ -40,7 +38,7 @@ _Commande servant à créer, lier et modfifier son repo github depuis son accès
 
 🌿 4. git branch -M main
 
-# > git branch -M main
+> git branch -M main
 
 👉 Tu renommes ta branche en main
 
@@ -54,7 +52,7 @@ main = standard
 master = ancien
 🔗 5. git remote add origin ...
 
-# > git remote add origin https://github.com/Jevainbkg/Projet_analyse_ventes.git
+> git remote add origin https://github.com/Jevainbkg/Projet_analyse_ventes.git
 
 👉 Tu relies ton projet local à GitHub
 
@@ -66,7 +64,7 @@ master = ancien
 
 🔍 6. git remote -v
 
-# > git remote -v
+> git remote -v
 
 👉 Tu vérifies les liens avec GitHub
 
@@ -76,7 +74,7 @@ master = ancien
 
 🔄 7. git remote set-url origin ...
 
-# > git remote set-url origin https://github.com/Jevainbkg/Projet_analyse_ventes.git
+> git remote set-url origin https://github.com/Jevainbkg/Projet_analyse_ventes.git
 
 👉 Tu corriges l’URL du dépôt
 
@@ -86,7 +84,7 @@ master = ancien
 
 🚀 8. git push -u origin main
 
-# > git push -u origin main
+> git push -u origin main
 
 👉 Tu envoies ton projet sur GitHub
 
@@ -106,7 +104,7 @@ ensuite tu peux juste faire git push
 
 🔄 10. git pull origin main --allow-unrelated-histories
 
-# > git pull origin main --allow-unrelated-histories
+> git pull origin main --allow-unrelated-histories
 
 👉 Tu récupères ce qu’il y a sur GitHub
 
@@ -120,7 +118,7 @@ deux projets séparés
 Git refuse de fusionner sans autorisation
 🔁 11. git push
 
-# > git push
+> git push
 
 👉 Tu envoies les modifications
 
@@ -131,28 +129,25 @@ Git refuse de fusionner sans autorisation
 📊 BONUS (très utiles que tu as utilisés ou devrais utiliser)
 🔍 git status
 
-# > git status
+> git status
 
 👉 Voir l’état du projet
 
 🧾 git log --oneline
 
-# > git log --oneline
+> git log --oneline
 
 👉 Voir l’historique des commits
 
 📥 git pull
 
-# > git pull
+> git pull
 
 👉 Récupérer les modifications depuis GitHub
 
 Et une fois ayant apporté des modifications en local, pour synchroniser il suffit de faire
 
-# > git add .
-
-# > git commit -m "comment commit"
-
-# > git pull
-
-# > git push
+> git add .
+> git commit -m "comment commit"
+> git pull
+> git push
