@@ -1,4 +1,5 @@
 import datetime
+from pathlib import Path
 
 
 def Show_all(data):
@@ -107,7 +108,13 @@ def Generer_rapport(data):
             Top 3 produits : {top_produits}
             Total ventes : {total_sales}
         """
-    path_rapport = f"D:\\JevainBkg\\Formations\\Python pour la DATA  le cours ULTIME (+52h)\\00. Exercices\\Python's_Project\\mini_analyse_ventes\\rapports\ Rapport-{date_rapport.strftime("%Y-%m-%d_%H-%M-%S")}.txt"
+
+    base_dir = Path(__file__).parent
+    dossier_rapports = base_dir / "rapports"
+    path_rapport = (
+        dossier_rapports / f"Rapport-{date_rapport.strftime("%Y-%m-%d_%H-%M-%S")}.txt"
+    )
+
     with open(path_rapport, mode="w", encoding="utf-8") as file:
         file.writelines(rapport)
         print("Rapport généré avec succès")
