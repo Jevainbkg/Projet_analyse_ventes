@@ -1,0 +1,7 @@
+Date : 2026-03-22 04:16:02
+            Chiffre d'affaire : 1802.5
+            Meilleure ville : {'Kinshasa': 17}
+            Meilleure categorie : {'Alimentation': 25}
+            Top 3 produits : [('Stylo bleu', 115), ('Eau 1.5L', 102), ('Biscuits', 83)]
+            Total ventes : 72
+        
